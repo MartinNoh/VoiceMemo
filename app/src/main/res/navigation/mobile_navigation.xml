@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_record"
-        android:name="com.example.voicememo.ui.Record.RecordFragment"
+        android:name="com.androidCode.voicememo.ui.Record.RecordFragment"
         android:label="@string/title_record"
         tools:layout="@layout/fragment_record" />
 
     <fragment
         android:id="@+id/navigation_repository"
-        android:name="com.example.voicememo.ui.Repository.RepositoryFragment"
+        android:name="com.androidCode.voicememo.ui.Repository.RepositoryFragment"
         android:label="@string/title_repository"
         tools:layout="@layout/fragment_repository" />
 </navigation>

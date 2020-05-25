@@ -1,4 +1,4 @@
-package com.example.voicememo.ui.Repository;
+package com.androidCode.voicememo.ui.Repository;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,10 +13,10 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.voicememo.R;
-import com.example.voicememo.db.DBHelper;
-import com.example.voicememo.recyclerView.RecyclerViewCustomAdapter;
-import com.example.voicememo.recyclerView.RecyclerViewDictionary;
+import com.androidCode.voicememo.R;
+import com.androidCode.voicememo.db.DBHelper;
+import com.androidCode.voicememo.recyclerView.RecyclerViewCustomAdapter;
+import com.androidCode.voicememo.recyclerView.RecyclerViewDictionary;
 
 import java.util.ArrayList;
 

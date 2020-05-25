@@ -1,4 +1,4 @@
-package com.example.voicememo;
+package com.androidCode.voicememo;
 
 import org.junit.Test;
 

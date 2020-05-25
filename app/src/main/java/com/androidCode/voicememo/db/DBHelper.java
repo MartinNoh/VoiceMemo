@@ -1,4 +1,4 @@
-package com.example.voicememo.db;
+package com.androidCode.voicememo.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

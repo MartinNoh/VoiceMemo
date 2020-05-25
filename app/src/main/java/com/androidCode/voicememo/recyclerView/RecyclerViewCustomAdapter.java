@@ -1,4 +1,4 @@
-package com.example.voicememo.recyclerView;
+package com.androidCode.voicememo.recyclerView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,8 +18,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.voicememo.R;
-import com.example.voicememo.db.DBHelper;
+import com.androidCode.voicememo.R;
+import com.androidCode.voicememo.db.DBHelper;
 
 import java.util.ArrayList;
 

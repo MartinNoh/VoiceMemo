@@ -1,4 +1,4 @@
-package com.example.voicememo.recyclerView;
+package com.androidCode.voicememo.recyclerView;
 
 public class RecyclerViewDictionary {
     private int id;

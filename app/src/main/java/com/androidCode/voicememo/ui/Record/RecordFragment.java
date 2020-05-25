@@ -1,4 +1,4 @@
-package com.example.voicememo.ui.Record;
+package com.androidCode.voicememo.ui.Record;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -24,8 +24,8 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import com.example.voicememo.R;
-import com.example.voicememo.db.DBHelper;
+import com.androidCode.voicememo.R;
+import com.androidCode.voicememo.db.DBHelper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
