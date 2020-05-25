@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_record">
+
+    <fragment
+        android:id="@+id/navigation_record"
+        android:name="com.example.voicememo.ui.Record.RecordFragment"
+        android:label="@string/title_record"
+        tools:layout="@layout/fragment_record" />
+
+    <fragment
+        android:id="@+id/navigation_repository"
+        android:name="com.example.voicememo.ui.Repository.RepositoryFragment"
+        android:label="@string/title_repository"
+        tools:layout="@layout/fragment_repository" />
+</navigation>
