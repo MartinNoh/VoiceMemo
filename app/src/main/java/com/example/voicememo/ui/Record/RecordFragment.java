@@ -213,11 +213,11 @@ public class RecordFragment extends Fragment {
         SimpleDateFormat mFormat = new SimpleDateFormat("yyyy/M/d");
         String formattedTime = mFormat.format(time);
 
-        if (text.indexOf("년") == 4 & text.contains("년") & text.contains("월") & text.contains("일")){ // 시간을 말하는 단어에서 '일' 앞을 date, 그 뒤를 content로 저장
+        if (text.indexOf("년") == 5 & text.contains("년") & text.contains("월") & text.contains("일")){ // 시간을 말하는 단어에서 '일' 앞을 date, 그 뒤를 content로 저장
             date = date.concat(text.substring(text.indexOf("년")-4, text.indexOf("년")) + "/" + text.substring(text.indexOf("월")-2, text.indexOf("월")).trim() + "/" + text.substring(text.indexOf("일")-2, text.indexOf("일")).trim());
             content = content.concat(text.substring(text.indexOf("일")+2));
         }
-        else if (text.indexOf("년") == 2 & text.contains("년") & text.contains("월") & text.contains("일")){ // 시간을 말하는 단어에서 '일' 앞을 date, 그 뒤를 content로 저장
+        else if (text.indexOf("년") == 3 & text.contains("년") & text.contains("월") & text.contains("일")){ // 시간을 말하는 단어에서 '일' 앞을 date, 그 뒤를 content로 저장
             date = date.concat("20" + text.substring(text.indexOf("년")-2, text.indexOf("년")) + "/" + text.substring(text.indexOf("월")-2, text.indexOf("월")).trim() + "/" + text.substring(text.indexOf("일")-2, text.indexOf("일")).trim());
             content = content.concat(text.substring(text.indexOf("일")+2));
         }
